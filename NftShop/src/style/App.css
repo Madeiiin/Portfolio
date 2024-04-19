@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.DivTeam {
+  background-color:  #056efd;
+  border-radius: 40px;
+
+}
+
+.DivDescription {
+  background-color:  #056efd;
+  border-radius: 40px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: white;
+
+}
+
+.Contacts {
+  background-color: white;
+  margin-top: 200px;
+  border-radius: 20px;
+  border: solid #056efd 1px;
+
+}
+
+
+
+.InfoImage{
+  border-radius: 40px;
+}
+
+li {
+  list-style-type: none;
+}
+.BTC {
+  margin-left: 80px;
+  position:absolute;
+  bottom:33px;
+
+}
+
+.cal{
+  margin: 10px auto;
+  background-color: #BFA2DB;
+  width: 85%;
+  display: flex;
+  height: 170px;
+  color: black;
+  border-radius: 15px;
+}
+
+
+.cal:hover{
+  box-shadow:  2px 2px 5px grey;
+}
+.cal-img{
+  border: 0;
+  margin-right: 1%;
+  margin-top: 0.3%;
+  padding: 0;
+  width: 250px;
+  height: 90%;
+}
+
+.cal-info{
+  margin-left: 10px;
+  padding: 0;
+  width: 100%;
+  font-style: oblique;
+  font-weight: bold;
+  min-height: 80px;
+}
+.cal-info p{
+  margin-left: 10px;
+}
+.cal-info .meta{
+  display: flex;
+}
+
+
+
+.calmg{
+  width: 200px;
+  height: 150px;
+}
+
+.advert {
+  color: red;
+}
